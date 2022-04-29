@@ -17,13 +17,11 @@ import { extend } from "@react-three/fiber";
 import fonts from "./fonts";
 import { Text } from "troika-three-text";
 
-
 extend({ Text });
 const text =
     '"Karthik Why cant you bowl like normal people !?" \nYes, I am guilty of bowling into other people\'s lane.\nSometimes winning is not important.\nthe pleasure of watching the bowl fly through air\ntakes precedence. ';
 
 function Scene2(props) {
-
 
     const [rotation, setRotation] = useState([0, 0, 0, 0]);
     const [opts, setOpts] = useState({
