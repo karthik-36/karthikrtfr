@@ -1,13 +1,6 @@
 import React, { Suspense, useRef, useState } from "react";
-import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-import { MeshReflectorMaterial } from "@react-three/drei";
-import { softShadows, MeshWobbleMaterial, OrbitControls, Box } from '@react-three/drei';
 import "./App.scss";
-import { DoubleSide } from "three";
-import { useSpring, a } from '@react-spring/three';
 import { Ground } from "./Ground";
-import { useGLTF, Effects } from "@react-three/drei";
-import * as THREE from "three";
 import bowl from "./videos/bowl.mp4";
 
 import TV from "./TV.js";
