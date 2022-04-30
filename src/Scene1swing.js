@@ -1,26 +1,8 @@
-import React, { Suspense, useRef, useState } from "react";
-import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-import { MeshReflectorMaterial } from "@react-three/drei";
-import { softShadows, MeshWobbleMaterial, OrbitControls, Box } from '@react-three/drei';
+import React, {  useState } from "react";
 import "./App.scss";
-import { DoubleSide } from "three";
-import { useSpring, a } from '@react-spring/three';
 import { Ground } from "./Ground";
-import { useGLTF, Effects } from "@react-three/drei";
-import * as THREE from "three";
-import bowl from "./videos/bowl.mp4";
 import swing from "./videos/swing.mp4";
-import fire from "./videos/fire.mp4";
-import beat from "./videos/beat.mp4";
-import left from "./images/left.png";
-import right from "./images/right.png";
-import Dancebeat from "./Dancebeat.js";
-import Halfswing from "./Halfswing.js";
 import SwingReverseDelay from "./SwingReverseDelay.js";
-import KeeperBowl from "./Keeperbowl.js";
-import Firea from "./Firea";
-import SitFire from "./Sitfire.js";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import TV from "./TV.js"
 import RedSwing from "./Redbar2"
 import { extend } from "@react-three/fiber";

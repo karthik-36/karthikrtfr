@@ -32,13 +32,7 @@ function Scene2(props) {
     return (<>
 
         <color args={[0, 0, 0]} attach="background" />
-        {/* [1, 0.25 , 0.7] */}
-
-        {/* <ambientLight
-            color={[1, 1, 1]}
-            intensity={12.5}
-      
-        /> */}
+    
 
         <pointLight
             color={[0.6, 0.6, 1]}
@@ -61,7 +55,6 @@ function Scene2(props) {
         />
 
         <TV video={bowl} position={[0, 10.5, 0]} rotation={[Math.PI * 0.1, Math.PI * 1.2, Math.PI * 0.05]} color={"purple"} />
-        {/* <KeeperBowl /> */}
 
         <text
             position-z={-10}

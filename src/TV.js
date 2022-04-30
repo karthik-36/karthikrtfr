@@ -1,6 +1,5 @@
 import React, { Suspense, useRef, useState } from "react";
 import { useEffect} from "react";
-import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import { MeshReflectorMaterial } from "@react-three/drei";
 
 import "./App.scss";

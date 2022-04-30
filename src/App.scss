@@ -85,3 +85,10 @@ body {
   transform:translateY(-50%);
   width: 35%;
 }
+
+
+.loading {
+  padding: 10px;
+  transform: translate3d(-50%, -50%, 0);
+  color: #050000;
+}

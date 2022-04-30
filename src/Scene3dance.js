@@ -1,10 +1,7 @@
 import React, { Suspense, useRef, useState, useEffect } from "react";
-import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-import { MeshReflectorMaterial } from "@react-three/drei";
-import { softShadows, MeshWobbleMaterial, OrbitControls, Box, RoundedBox } from '@react-three/drei';
+import {  RoundedBox } from '@react-three/drei';
 import "./App.scss";
-import { BoxBufferGeometry, DoubleSide } from "three";
-import { useSpring, a } from '@react-spring/three';
+
 import { Ground } from "./Ground";
 import * as THREE from "three";
 import beat from "./videos/beat.mp4";
